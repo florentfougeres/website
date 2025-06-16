@@ -1,0 +1,8 @@
+{% extends "partials/header.html" %}
+
+{% block header_navigation %}
+  {{ super() }}
+  <div class="md-header__social-badges" style="display: flex; align-items: center; gap: 8px; margin-left: 16px;">
+    {{ config.extra.header_social | safe }}
+  </div>
+{% endblock %}

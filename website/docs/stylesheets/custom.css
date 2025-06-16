@@ -1,0 +1,11 @@
+/* Palette claire */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #224368;
+  --md-accent-fg-color: #224368; 
+}
+
+/* Palette sombre */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #224368;
+  --md-accent-fg-color: #224368; 
+}

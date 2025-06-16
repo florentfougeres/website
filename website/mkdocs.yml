@@ -1,4 +1,82 @@
 site_name: Site personnel de Florent Fougères
 site_url: http://florentfougeres.github.io/website
+
 theme:
   name: material
+  custom_dir: overrides
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Basculer en mode sombre
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Basculer en mode clair
+
+  features:
+    - navigation.hide
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - toc.integrate
+    - content.code.annotate
+    - content.action.edit
+    - navigation.tabs
+    - navigation.top
+    - content.tabs.link
+    - navigation.tracking
+    - content.tooltips
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.emoji
+  - pymdownx.keys
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - pymdownx.extra
+  - pymdownx.caret
+  - pymdownx.highlight
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra_css:
+  - stylesheets/custom.css
+  
+
+plugins:
+  - search
+  - blog
+
+extra:
+  header_social: |
+    💼 Réseaux
+    <a href="https://www.linkedin.com/in/ton-nom" target="_blank" rel="noopener">
+      <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    </a>
+    <a href="https://github.com/tonpseudo" target="_blank" rel="noopener">
+      <img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github" alt="GitHub"/>
+    </a>
+    <a href="https://gitlab.com/tonpseudo" target="_blank" rel="noopener">
+      <img src="https://img.shields.io/badge/-GitLab-FC6D26?style=for-the-badge&logo=gitlab" alt="GitLab"/>
+    </a>
+    <a href="https://mastodon.social/@tonpseudo" target="_blank" rel="noopener">
+      <img src="https://img.shields.io/badge/-Mastodon-6364FF?style=for-the-badge&logo=mastodon" alt="Mastodon"/>
+    </a>
