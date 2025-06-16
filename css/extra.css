@@ -1,0 +1,28 @@
+/* Couleurs de fond personnalisées pour les cards */
+.card-bg-linkedin {
+  background-color: #0077b5 !important; /* Bleu LinkedIn */
+  color: white !important;
+}
+
+.card-bg-github {
+  background-color: #333 !important; /* Noir GitHub */
+  color: white !important;
+}
+
+.card-bg-gitlab {
+  background-color: #fc6d26 !important; /* Orange GitLab */
+  color: white !important;
+}
+
+.card-bg-mastodon {
+  background-color: #6364ff !important; /* Bleu Mastodon */
+  color: white !important;
+}
+
+/* Optionnel : amélioration visuelle */
+.md-typeset .grid.cards > * {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 1em;
+  text-align: center;
+}
