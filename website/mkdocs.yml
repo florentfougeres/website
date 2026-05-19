@@ -1,8 +1,9 @@
-site_name: Site personnel de Florent Fougères
+site_name: Florent Fougères
 site_url: http://florentfougeres.github.io/website
 
 theme:
   name: material
+  favicon: assets/favicon.png
   custom_dir: overrides
   palette:
       - media: "(prefers-color-scheme)"
