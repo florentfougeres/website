@@ -5,14 +5,20 @@ theme:
   name: material
   custom_dir: overrides
   palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Basculer en mode sombre
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Basculer en mode clair
+      - media: "(prefers-color-scheme)"
+        toggle:
+          icon: material/brightness-auto
+          name: Basculer en mode automatique
+      - scheme: default
+        media: "(prefers-color-scheme: light)"
+        toggle:
+          icon: material/weather-night
+          name: Basculer en mode sombre
+      - scheme: slate
+        media: "(prefers-color-scheme: dark)"
+        toggle:
+          icon: material/weather-sunny
+          name: Basculer en mode clair
 
   features:
     - navigation.hide
@@ -27,19 +33,16 @@ theme:
     - toc.integrate
     - content.code.annotate
     - content.action.edit
-    - navigation.tabs
-    - navigation.top
     - content.tabs.link
-    - navigation.tracking
     - content.tooltips
     - content.code.copy
-
 markdown_extensions:
   - admonition
   - attr_list
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.emoji
   - pymdownx.keys
   - pymdownx.inlinehilite
@@ -54,17 +57,13 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_css:
   - stylesheets/custom.css
-  
 
 plugins:
   - search
-  - blog
-
 extra:
   header_social: |
     💼 Réseaux
