@@ -16,10 +16,18 @@ jobs:
     steps:
       - uses: actions/configure-pages@v5
       - uses: actions/checkout@v5
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Marp CLI
+        run: npm install -g @marp-team/marp-cli
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
       - run: pip install -r requirements.txt
+      - name: Generate PDFs with Marp
+        run: marp website/docs/cours/duckdb/presentation.md --pdf --allow-local-files -o website/docs/cours/duckdb/presentation.pdf
       - run: cd website && zensical build --clean
       - uses: actions/upload-pages-artifact@v4
         with:

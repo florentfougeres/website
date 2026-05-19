@@ -1,0 +1,29 @@
+/* H1, H2, H3 plus gras pour MkDocs Material */
+.md-content h1 {
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+.md-content h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.md-content h3 {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+.md-content pre, .md-content code {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Texte du contenu principal */
+.md-typeset {
+  font-size: 0.70rem;
+}
+
+/* Navigation gauche */
+.md-nav__item {
+  font-size: 0.60rem;
+}
