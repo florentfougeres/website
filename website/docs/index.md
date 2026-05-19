@@ -19,16 +19,6 @@ Bienvenue sur ma page de présentation. Ici, tu peux en savoir un peu plus sur m
 
     J'aime construire des choses élégantes, efficaces, bien documentées — et j'adore l'open-source.
 
----
-=== "💼 Réseaux"
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ton-nom)
-[![GitHub](https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github)](https://github.com/tonpseudo)
-[![GitLab](https://img.shields.io/badge/-GitLab-FC6D26?style=for-the-badge&logo=gitlab)](https://gitlab.com/tonpseudo)
-[![Mastodon](https://img.shields.io/badge/-Mastodon-6364FF?style=for-the-badge&logo=mastodon)](https://mastodon.social/@tonpseudo)
-
-
-
 
 ## 🌐 Me retrouver en ligne
 

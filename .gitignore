@@ -194,5 +194,5 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-# Mkdocs
-website/output/*
+# Zensical
+website/site/*
