@@ -1,57 +1,34 @@
+# Florent Fougères
 
-# 👋 Bienvenue !
-
-Bienvenue sur ma page de présentation. Ici, tu peux en savoir un peu plus sur moi, mes projets, et comment me contacter !
+Bienvenue sur mon site personnel. Ici, vous pouvez consulter mes projets, mon CV, mes supports de cours et tutoriels/workshops, et me contacter !
 
 ---
 
 ## 👤 À propos de moi
 
-??? info "Développeur full-stack passionné"
-    :octicons:`person-24`
+???+ info "Géographe devenu développeur SIG"
+    
+    :octicons-person-24: Géographe et Géomaticien de formation, issu du Master [SIGAT](https://formations.univ-rennes2.fr/fr/formations/master-37/master-mention-geomatique-parcours-systeme-d-information-geographique-et-analyse-des-territoires-sigat-JEOC8L9A.html), j'ai commencé ma carrière professionnelle en tant que Géomaticien dans un bureau d'études. Désormais, je travaille chez [Oslandia](https://oslandia.com/) en tant que développeur SIG.
 
-    Je suis un développeur full-stack basé à Paris, spécialisé dans :
-
-    - Python / Django / FastAPI
-    - JavaScript / TypeScript / Vue / React
-    - DevOps & CI/CD (Docker, GitHub Actions, Kubernetes)
-    - Documentation technique avec MkDocs 😄
-
-    J'aime construire des choses élégantes, efficaces, bien documentées — et j'adore l'open-source.
-
+    Passionné de géographie, de sport et d'informatique, j'aime jouer avec les données géographiques (open source si possible) pour les traiter et les représenter.
 
 ## 🌐 Me retrouver en ligne
 
-
 <div class="grid cards" style="grid-template-columns: repeat(4, 1fr);" markdown>
-
-- :fontawesome-brands-linkedin: [**LinkedIn**](https://www.linkedin.com/in/ton-nom)
-- :fontawesome-brands-github: [**GitHub**](https://github.com/tonpseudo)
-- :fontawesome-brands-gitlab: [**GitLab**](https://gitlab.com/tonpseudo)
-- :fontawesome-brands-mastodon: [**Mastodon**](https://mastodon.social/@tonpseudo)
-
+- :fontawesome-brands-linkedin: [**LinkedIn**](...)
+- :fontawesome-brands-github: [**GitHub**](...)
+- :fontawesome-brands-gitlab: [**GitLab**](...)
+- :fontawesome-brands-mastodon: [**Mastodon**](...)
 </div>
-
----
-
-## 🛠️ Mes projets phares
-
-
----
 
 ## 📫 Contact
 
-??? success "Tu veux me contacter ?"
-    :material:`email`
+<div class="grid cards" markdown>
 
-    Tu peux m’écrire à l’adresse suivante :
+- :fontawesome-regular-envelope: **Email**
 
-    📬 **ton.email@exemple.com**
+    ---
 
-    Ou bien ouvre une issue/discussion sur l’un de mes dépôts publics.
+    [contact@fougeres.eu](mailto:contact@fougeres.eu)
 
----
-
-## ❤️ Merci !
-
-Merci d’avoir visité ma page ! N’hésite pas à parcourir le reste de la doc ou à contribuer 🚀
+</div>
