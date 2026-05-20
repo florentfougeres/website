@@ -31,7 +31,7 @@ theme:
     - navigation.top
     - navigation.tracking
     - toc.follow
-    - toc.integrate
+    # - toc.integrate
     - content.code.annotate
     - content.action.edit
     - content.tabs.link
@@ -67,9 +67,26 @@ plugins:
 
 nav:
   - Accueil: index.md
-  - CV: cv.md
+  - CV: 
+    - Formation: cv/formation.md
+    - Expériences: cv/exp.md
   - Publication: publication.md
   - Cours:
     - DuckDB:
       - Présentation: cours/duckdb/presentation.md
       - Exercice: cours/duckdb/exercice.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/florent-fougeres/
+    - icon: fontawesome/brands/github
+      link: https://github.com/florentfougeres
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/florentfougeres
+    - icon: fontawesome/brands/mastodon
+      link: https://mapstodon.space/@florent001
+    - icon: fontawesome/regular/envelope
+      link: mailto:contact@fougeres.eu
+
+copyright: Copyright &copy; 2026 Florent Fougères

@@ -12,6 +12,16 @@ Bienvenue sur mon site personnel. Ici, vous pouvez consulter mes projets, mon CV
 
     Passionné de géographie, de sport et d'informatique, j'aime jouer avec les données géographiques (open source si possible) pour les traiter et les représenter.
 
+Géographe de formation, je me suis progressivement spécialisé dans le développement logiciel appliqué aux données géospatiales.
+
+Je développe des plugins QGIS en Python et Qt, et j'apprécie particulièrement la construction de chaînes ETL via QGIS Processing. 
+
+Côté bases de données, je travaille avec PostgreSQL/PostGIS pour la modélisation et le traitement de données spatiales, et j'explore DuckDB pour l'analyse analytique. 
+
+En Python, j'aime jouer avec geopandas, plotly et Dash, souvent dans des environnements notebook comme Jupyter ou Marimo. 
+
+Pour le déploiement, je m'appuie sur Docker et Ansible.
+
 ## 🌐 Me retrouver en ligne
 
 <div class="grid cards" style="grid-template-columns: repeat(4, 1fr);" markdown>
