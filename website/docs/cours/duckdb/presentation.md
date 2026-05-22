@@ -25,10 +25,10 @@ style: |
 
 ## Développeur SIG chez [Oslandia](https://oslandia.com)
 
-### <img src="https://www.svgrepo.com/show/512317/github-142.svg" height="40"> [@florentfougeres](https://github.com/florentfougeres)
-### <img src="https://www.svgrepo.com/show/448226/gitlab.svg" height="40"> [@florentfougeres](https://gitlab.com/florentfougeres)
-### <img src="https://www.svgrepo.com/show/349354/email.svg" height="40"> [florent.fougeres@gmail.com](mailto:florent.fougeres@gmail.com)
-### <img src="https://www.svgrepo.com/show/452047/linkedin-1.svg" height="40"> [Florent Fougères](https://www.linkedin.com/in/florent-fougeres/)
+<p><img src="https://www.svgrepo.com/show/512317/github-142.svg" style="height:1em;vertical-align:middle;"> <a href="https://github.com/florentfougeres">@florentfougeres</a></p>
+<p><img src="https://www.svgrepo.com/show/448226/gitlab.svg" style="height:1em;vertical-align:middle;"> <a href="https://gitlab.com/florentfougeres">@florentfougeres</a></p>
+<p><img src="https://www.svgrepo.com/show/349354/email.svg" style="height:1em;vertical-align:middle;"> <a href="mailto:florent.fougeres@gmail.com">florent.fougeres@gmail.com</a></p>
+<p><img src="https://www.svgrepo.com/show/452047/linkedin-1.svg" style="height:1em;vertical-align:middle;"> <a href="https://www.linkedin.com/in/florent-fougeres/">Florent Fougères</a></p>
 
 ---
 

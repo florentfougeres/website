@@ -25,10 +25,10 @@ Pour le déploiement, je m'appuie sur Docker et Ansible.
 ## 🌐 Me retrouver en ligne
 
 <div class="grid cards" style="grid-template-columns: repeat(4, 1fr);" markdown>
-- :fontawesome-brands-linkedin: [**LinkedIn**](...)
-- :fontawesome-brands-github: [**GitHub**](...)
-- :fontawesome-brands-gitlab: [**GitLab**](...)
-- :fontawesome-brands-mastodon: [**Mastodon**](...)
+- :fontawesome-brands-linkedin: [**LinkedIn**](https://www.linkedin.com/in/florent-fougeres/)
+- :fontawesome-brands-github: [**GitHub**](https://github.com/florentfougeres)
+- :fontawesome-brands-gitlab: [**GitLab**](https://gitlab.com/florentfougeres)
+- :fontawesome-brands-mastodon: [**Mastodon**](https://mapstodon.space/@florent001)
 </div>
 
 ## 📫 Contact
